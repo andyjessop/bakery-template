@@ -1,0 +1,11 @@
+{
+	"name": "bakery-template",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.6.2",
+		"@types/bun": "^1.0.10",
+    "@andyjessop/bakery": "0.0.1"
+	},
+	"workspaces": ["apps/*", "packages/*"]
+}
